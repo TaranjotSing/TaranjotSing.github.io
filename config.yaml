@@ -1,0 +1,241 @@
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog Posts
+      url: /blog
+      weight: 1
+Paginate: 3
+baseURL: https://taranjotsingh1729.github.io
+languageCode: en-us
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  about:
+    content: |
+      A Chemical Engineer turned banker who provides Payments Solutions to the Corporates and MSMEs.I am an MBA graduate in Marketing and Finance. I have worked on Market Research in the retail segment and customer behavior pertaining to mutual funds. 
+      
+      I have an interest in Data, Data analytics, interactive dashboards, and digital processes. I like to read, play simulations, and have cycling trips.
+      
+      Currently, I am employed with ICICI Bank Ltd as Deputy Manager in Commercial Cards and Payment Solutions. In this role, I am more focused on B2B, although I have done extensive B2C work in the past. In this role, Wehave to understand the Client needs and get the optimal payment solution for him.
+      
+      I believe in creating value for my team, my clients, my organisation and myself.
+    enable: true
+    image: /images/aboutme2.png
+    skills:
+      enable: true
+      items:
+        - Power BI
+        - Tableau
+        - SQL
+        - Aspen HYSYS
+        - Cpp
+        - Data Analysis
+        - Linux
+        - Microsoft Excel
+        - Cross-functional Coordination
+      title: "These are the skills, languages, and technologies I am most proficient with:"
+    title: About Me
+  achievements:
+    enable: true
+    items:
+      - content: |
+          I was the department topper for the petrochemical branch at Maharashtra Institute of Technology.
+        title: Department Topper For Year 2015-2016
+      - content: Worked over various activities as a student council member.
+                  Participate in meetings and discussions to address student concerns and plan events and initiatives.
+                  Participate in leadership development and professional development opportunities.
+        title: "SIMS STUDENT COUNCIL 19-20"
+      - content: |
+          Plan and execute events, programs, and initiatives that benefit the student body.
+
+          Collaborate with other student organizations and groups to achieve common goals and foster a sense of community.
+          
+          Participating in meetings and discussions to address issues affecting the student body and to plan events and initiatives.
+        title: "MIT STUDENT COUNCIL 2016-18 "
+      - content: |
+        title: "Runner-up : Inter Department Cricket Tournament"
+  contact:
+    btnName: E-Mail Me
+    content: |
+      My inbox is always open. You can reach me out anytime.
+    email: "taranjotsingh9968@gmail.com"
+    enable: true
+  description: "This website shall serve as a collection of my blog posts, projects (old and new), and other things I'm interested in."
+  education:
+    enable: true
+    items:
+      - date: Aug 2018 - Mar 2020
+        school:
+          name: Symbiosis Institute of Management Studies
+          url: http://www.sims.edu/
+        title: Masters in Business Adminstration - Marketing
+      - date: Aug 2014 - Mar 2018
+        school:
+          name: Maharashtra Institute of Technology
+          url: http://www.mitpune.com/
+        title: Engineer's Degree - Petrochemical Engineering
+      - date: Aug 2008 - Mar 2013
+        school:
+          name: Army Public School , Shankar Vihar , New Delhi
+          url: https://apsshankarvihar.ac.in/
+        title: High School - PCM
+  experience:
+    enable: true
+    items:
+      - company: ICICI BANK
+        companyUrl: https://www.icicibank.com/
+        content: |
+          I am currently a Deputy Manager in Commercial Cards and Payment solutions at ICICI. Some of my responsibilities include, but are not limited to:
+          
+          - Coordinating with the Risk Team, Credit team and generating the CAM by analysing financial statements and assessing the risk profile of the Client in order to extend unsecured exposure
+          - Payment Solution being as Custom made offering requires many rounds of proposal sharing, negotiations and involvement of various stake holders
+          - Maintaining the regular flow of Data and MIS, simultaneously conducting data analysis for better decision making, identifying and opening untapped markets to fetch incremental business
+          - Enhancing the Profitability by Managing the Commercial Cards portfolio on assessing and reducing the delinquencies and improving the spends 
+          - Managing the Commercial Travel Card portfolio for PHHJ Zone through various channels like FFMC/ ADII and Corporates for Travel Card payments solutions
+          - Worked with various Fintech Partners to build co-curated payment solutions and go-to-market programs thus increasing and diversifying spends portfolio
+          - Managing and enhancing the spends portfolio of up to 100 Cr monthly spends by opening new segments, regular servicing and building relationship value with Client
+        date: Oct 2020 - Present
+        job: Manager
+      - company: Reliance Retail
+        companyUrl: https://relianceretail.com/
+        content: |
+          I started at Reliance Retail as a intern in the position of Manager. While I was an intern, some of my responsibilities included:
+          
+          Project Title : Understanding Shopper Behavior and Evaluation of Customer Experience at Select Stores of Reliance Retail in Chandigarh
+          - Understanding various parameters pertaining to customer experience across Reliance Retail companies
+          - Interaction with customers inside and outside of Reliance Retail stores using structured questionnaires as well as using observational techniques to study and understand shoppers and their buying behavior.
+          - Analysis using MS Excel and SPSS      
+          
+        date: Apr 2019 - Jun 2019
+        job: Market Research 1
+      - company: "BASF"
+        companyUrl: https://www.basf.com/in/en.html
+        content: |
+          
+        date: Dec 2016 - Jan 2017
+        job: Intern
+  favicon: /images/avatar.png
+  footer:
+    socialNetworks:
+      facebook: https://facebook.com/taranjot.singh
+      github: https://github.com/taranjotsingh1729
+      instagram: https://www.instagram.com/taranjot.singh/
+      linkedin: https://www.linkedin.com/in/taranjot-singh-0a259670/
+      twitter: https://twitter.com/taranjot.singh
+  hero:
+    content: |
+      Less self-deprecating, I'm a Chemical Engineer turned banker by
+      trade. I can make beautiful dashboards on Power BI , work with SQL or manage a 
+      large team with ease and much more .
+    enable: true
+    image: /images/myprofile.png
+    intro: "Hey, my name is"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/taranjotsingh1729
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/taranjot-singh-0a259670/
+        - icon: fab fa-twitter
+          url: https://twitter.com/taranjot.singh
+        - icon: fab fa-instagram
+          url: https://www.instagram.com/taranjot.singh/
+        - icon: fab fa-facebook
+          url: https://facebook.com/taranjot.singh
+    subtitle: "I build dashboards with love"
+    title: "Taranjot Singh"
+  projects:
+    enable: true
+    items:
+      - badges:
+          - Tableau
+          - Dashboard
+          - Analytics
+          - Amazon
+        content: |
+          Dashboard on Amazon's Revenue and Profits. 
+
+          Amazon intentionally posts low profits because:
+
+          1. It takes the vast majority of its income and invests it back in business.
+
+          2. Due to the Amazon payment cycle, “free cash flows” is always higher than profit. In other words, Amazon always has enough money in hand.
+
+          3. Amazon’s internal investments also keep its taxes down. Thus, saving the company’s money.
+
+        featured:
+          link: https://public.tableau.com/app/profile/taranjot.singh/viz/Amazon_MoM/Dashboard2
+          name: Interact
+        image: /images/amazonMom.png
+        links:
+          - icon: fas fa-link
+            url: https://www.linkedin.com/posts/taranjot-singh-0a259670_visualizations-makeovermonday-amazon-activity-6704631659460902913-06jL?utm_source=linkedin_share&utm_medium=member_desktop_web
+        title: "Amazon MakeOverMonday"
+      - badges:
+          - Tableau
+          - Dashboard
+          - Analytics
+          - Netflix
+        content: |
+          Dashboard on Netflix constant growth in the content. 
+
+          It is evident that to be on top and maintain the market-share,one has to keep evolving constantly.
+
+          Netflix has over 6 lakh minutes of content and includes over 1000 titles in a year which contributes to 15% of the world's #internet traffic.
+
+
+        featured:
+          link: https://public.tableau.com/app/profile/taranjot.singh/viz/NetflixDashboardFinalV1_0Taranjot/Dashboard1
+          name: Interact
+        image: /images/netflixdashboard.png
+        links:
+          - icon: fas fa-link
+            url: https://www.linkedin.com/posts/taranjot-singh-0a259670_visualizations-makeovermonday-amazon-activity-6704631659460902913-06jL?utm_source=linkedin_share&utm_medium=member_desktop_web
+        title: "Netflix Content Growth"
+      - badges:
+          - Tableau
+          - Dashboard
+          - Analytics
+          - Google Playstore
+        content: |
+          I created a dashboard using #Google Play dataset. I have incorporated some new features:
+          1.exporting report in various formats
+          2.Navigation to different pages
+          3.expand the view.
+        featured:
+          link: https://public.tableau.com/app/profile/taranjot.singh/viz/GoogleAppStore_Latest2/Dashboard1
+          name: Interact
+        image: /images/googledashboard.png
+        links:
+          - icon: fas fa-link
+            url: https://www.linkedin.com/posts/taranjot-singh-0a259670_datavisualization-dataanalytics-data-activity-6698888738463997952-DyUW?utm_source=linkedin_share&utm_medium=member_desktop_web
+        title: "Google Playstore Rising Apps"
+      - badges:
+          - Power BI
+          - Dashboard
+          - Space Exploration
+          - Maven Analytics
+        content: |
+          Dashboard on Space Exploration challenge by Maven Analytics 
+
+          The subject of spaceexploration was interesting. Some of the facts fetched from the data were unbelievable like 
+          1. Russian dominance in Space missions over the years. 
+          2. kazakhstan making it to the list of top countries contributing to space missions. 
+          3. Only 22 out of 195 nations contribute to space missions.
+          4. 90 % success rates of the space missions . 
+          5. 2020 might be a disaster for the world but turned out to be great for Space Engineers
+
+        featured:
+          link: https://rb.gy/gfgrhk
+          name: Interact
+        image: /images/A03IM1.png
+        links:
+          - icon: fas fa-link
+            url: http://localhost:1313/blog/2022/02/data-analytics-challenge-reveals-fascinating-facts-about-space-exploration/
+        title: "Maven Analytics Space Mission report"
+  title: "Taranjot's Homepage"
+theme: hugo-profile
+title: "Taranjot's Homepage"
