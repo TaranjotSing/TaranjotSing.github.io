@@ -3,7 +3,7 @@ Menus:
     - identifier: blog
       name: Blog
       title: Blog Posts
-      url: taranjotsingh.netlify.app/blog/
+      url: /02/
       weight: 1
 Paginate: 3
 baseURL: https://taranjotsingh1729.github.io
