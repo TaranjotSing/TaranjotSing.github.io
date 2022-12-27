@@ -234,7 +234,7 @@ params:
         image: /images/A03IM1.png
         links:
           - icon: fas fa-link
-            url: http://localhost:1313/blog/2022/02/data-analytics-challenge-reveals-fascinating-facts-about-space-exploration/
+            url: /blog/2022/02/data-analytics-challenge-reveals-fascinating-facts-about-space-exploration/
         title: "Maven Analytics Space Mission report"
   title: "Taranjot's Homepage"
 theme: hugo-profile
