@@ -3,7 +3,7 @@ Menus:
     - identifier: blog
       name: Blog
       title: Blog Posts
-      url: /blog/2022/02/
+      url: /blog
       weight: 1
 Paginate: 3
 baseURL: https://taranjotsingh1729.github.io
