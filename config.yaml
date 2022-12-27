@@ -6,7 +6,7 @@ Menus:
       url: /blog
       weight: 1
 Paginate: 3
-baseURL: https://taranjotsingh1729.github.io
+baseURL: taranjotsingh.netlify.app
 languageCode: en-us
 markup:
   goldmark:
